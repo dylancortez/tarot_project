@@ -58,7 +58,7 @@ MajArcana[43].ArcanaMeaning = "shortcuts, delays, and seeking personal closure. 
 
 MinArcana[0].ArcanaMeaning = "love, new relationships, compassion, and creativity. Now is the perfect time for you to open your heart and experience the rich flow of emotion available to you right now. This is an invitation to be open to creative expression, especially when you can allow your emotions to shine through your endeavours. You may be inspired to start a new project or learn something new. Let your imagination and talent unfurl to new possibilities"
 MinArcana[1].ArcanaMeaning = "unified love, partnership, and mutual attraction. This shows you are creating deep connections and partnerships based on shared values, compassion, and unconditional love. While these relationships may still be in the early stages, they have the potential to grow and develop into something deeply fulfilling and rewarding in the long-term"
-MinArcana[2].ArcanaMeaning = "celebration, friendship, creativity, and collaborations."
+MinArcana[2].ArcanaMeaning = "celebration, friendship, creativity, and collaborations. "
 MinArcana[3].ArcanaMeaning = ""
 MinArcana[4].ArcanaMeaning = ""
 MinArcana[5].ArcanaMeaning = ""
