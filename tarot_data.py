@@ -1,5 +1,6 @@
 MajorArcana = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Justice", "The Hermit", "Wheel of Fortune", "Strength", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World", "The Fool (Reversed)", "The Magician (Reversed)", "The High Priestess (Reversed)", "The Empress (Reversed)", "The Emperor (Reversed)", "The Hierophant (Reversed)", "The Lovers (Reversed)", "The Chariot (Reversed)", "Justice (Reversed)", "The Hermit (Reversed)", "Wheel of Fortune (Reversed)", "Strength (Reversed)", "The Hanged Man (Reversed)", "Death (Reversed)", "Temperance (Reversed)", "The Devil (Reversed)", "The Tower (Reversed)", "The Star (Reversed)", "The Moon (Reversed)", "The Sun (Reversed)", "Judgement (Reversed)", "The World (Reversed)"]
 MinorArcana = ["Ace of Cups", "Two of Cups", "Three of Cups", "Four of Cups", "Five of Cups", "Six of Cups", "Seven of Cups", "Eight of Cups", "Nine of Cups", "Ten of Cups", "Page of Cups", "Knight of Cups", "Queen of Cups", "King of Cups", "Ace of Swords", "Two of Swords", "Three of Swords", "Four of Swords", "Five of Swords", "Six of Swords", "Seven of Swords", "Eight of Swords", "Nine of Swords", "Ten of Swords", "Page of Swords", "Knight of Swords", "Queen of Swords", "King of Swords", "Ace of Pentacles", "Two of Pentacles", "Three of Pentacles", "Four of Pentacles", "Five of Pentacles", "Six of Pentacles", "Seven of Pentacles", "Eight of Pentacles", "Nine of Pentacles", "Ten of Pentacles", "Page of Pentacles", "Knight of Pentacles", "Queen of Pentacles", "King of Pentacles", "Ace of Wands", "Two of Wands", "Three of Wands", "Four of Wands", "Five of Wands", "Six of Wands", "Seven of Wands", "Eight of Wands", "Nine of Wands", "Ten of Wands", "Page of Wands", "Knight of Wands", "Queen of Wands", "King of Wands"]
+MinorReversed = ["Ace of Cups (Reversed)", "Two of Cups (Reversed)", "Three of Cups (Reversed)", "Four of Cups (Reversed)", "Five of Cups (Reversed)", "Six of Cups (Reversed)", "Seven of Cups (Reversed)", "Eight of Cups (Reversed)", "Nine of Cups (Reversed)", "Ten of Cups (Reversed)", "Page of Cups (Reversed)", "Knight of Cups (Reversed)", "Queen of Cups (Reversed)", "King of Cups (Reversed)", "Ace of Swords (Reversed)", "Two of Swords (Reversed)", "Three of Swords (Reversed)", "Four of Swords (Reversed)", "Five of Swords (Reversed)", "Six of Swords (Reversed)", "Seven of Swords (Reversed)", "Eight of Swords (Reversed)", "Nine of Swords (Reversed)", "Ten of Swords (Reversed)", "Page of Swords (Reversed)", "Knight of Swords (Reversed)", "Queen of Swords (Reversed)", "King of Swords (Reversed)", "Ace of Pentacles (Reversed)", "Two of Pentacles (Reversed)", "Three of Pentacles (Reversed)", "Four of Pentacles (Reversed)", "Five of Pentacles (Reversed)", "Six of Pentacles (Reversed)", "Seven of Pentacles (Reversed)", "Eight of Pentacles (Reversed)", "Nine of Pentacles (Reversed)", "Ten of Pentacles (Reversed)", "Page of Pentacles (Reversed)", "Knight of Pentacles (Reversed)", "Queen of Pentacles (Reversed)", "King of Pentacles (Reversed)", "Ace of Wands (Reversed)", "Two of Wands (Reversed)", "Three of Wands (Reversed)", "Four of Wands (Reversed)", "Five of Wands (Reversed)", "Six of Wands (Reversed)", "Seven of Wands (Reversed)", "Eight of Wands (Reversed)", "Nine of Wands (Reversed)", "Ten of Wands (Reversed)", "Page of Wands (Reversed)", "Knight of Wands (Reversed)", "Queen of Wands (Reversed)", "King of Wands (Reversed)"]
 class TarotCard:
     def __init__(self, MajorArcana, MinorArcana="None"):
         self.MajorArcana = MajorArcana
@@ -11,6 +12,7 @@ class TarotCard:
 # Tarot Reading Interpretations, info obtained from https://www.biddytarot.com/tarot-card-meanings/major-arcana/
 MajArcana = [TarotCard(_) for _ in MajorArcana]
 MinArcana = [TarotCard(_) for _ in MinorArcana]
+MinReversed = [TarotCard(_) for _ in MinorReversed]
 MajArcana[0].ArcanaMeaning = "new beginnings, opportunity, and potential. Throw caution to the wind and be ready to embrace the unknown, leaving behind any fear, worry or anxiety about what may or may not happen"
 MajArcana[1].ArcanaMeaning = "potential, and tapping into one's talents. The seed of potential has sprouted, and you are being called to take action and bring your intention to fruition"
 MajArcana[2].ArcanaMeaning = "spiritual enlightenment, inner illumination, divine knowledge and wisdom. Now is the time to be still so you can tune in to your intuition. The answers you are seeking will come from within, from your deepest truth and 'knowing'"
@@ -116,3 +118,62 @@ MinArcana[52].ArcanaMeaning = "inspiration, ideas, discovery, and limitless pote
 MinArcana[53].ArcanaMeaning = "energy, passion, adventure, and impulsiveness. This shows that you have a clear vision about what you want to creat and, fueled by your passion and inspiration, you are now moving forward with leaps and bounds to turn your vision into reality. This card is your sign to go for it. This can give you the feeling that you can take on the world. You are so committed to your vision and purpose that you will stop at nothing to bring it to life. As you pursue your goals, your confidence skyrockets, and you realize that your potential is limitless. Be mindful that in your pursuit of action, you may be impulsive and impatient, expecting everything to be done yesterday. While you are bursting with energy, you have a dendency to rush into things with little consideration for the consequences of your actions. You may not have a clear plan of attack, hurting your chances of long-term success. Be sure to find a way to channel your enthusiasm on activities that will move you closer to your goal"
 MinArcana[54].ArcanaMeaning = "courage, confidence, independence, and determination. This is here to remind you that you are here to see through your creative visions and life purpose, even in the face of adversity and challenge. You are optimistic and full of ideas to share with others. This asks you to be bold in your undertakings and actions. Don't be afraid to own your power and put it out into the world. You have so much to offer, so believe in yourself and what you stand for, and don't be afraid to speak up and be heard. This can also show that you are expressing yourself fully in your world and that you enjoy being the center of attention. Now is the perfect time to put yourself out there and meet new people or create a community if like-minded people"
 MinArcana[55].ArcanaMeaning = "vision, entrepreneurship, and honor. This is a sign that you are stepping into the role of a leader, ready to direct people towards a common goal. You have a clear vision with the support of those around you. Others naturally gravitate towards you because you are charismatic, focused, and determined, and they believe in you and your vision. This will remind you to lead your life with intent, vision, and a long-term view. You have a grand idea of what is truly possible, and you have the maturity to see your vision through right to the end and beyond. This can also suggest that an opportunity is presenting itself to you, and you now have the power to take on the challenge. You are the determining factor in this situation. If you want this to be successful, it will. On the other hand, if you do not fully commit to it, this idea will struggle to grow. You can create any outcome you wish, so be mindful about your intentions and vision"
+
+#beginning of Minor Arcana Reversed Readings
+#Starting the Cups definitions
+MinReversed[0].ArcanaMeaning = ""
+MinReversed[1].ArcanaMeaning = ""
+MinReversed[2].ArcanaMeaning = ""
+MinReversed[3].ArcanaMeaning = ""
+MinReversed[4].ArcanaMeaning = ""
+MinReversed[5].ArcanaMeaning = ""
+MinReversed[6].ArcanaMeaning = ""
+MinReversed[7].ArcanaMeaning = ""
+MinReversed[8].ArcanaMeaning = ""
+MinReversed[9].ArcanaMeaning = ""
+MinReversed[10].ArcanaMeaning = ""
+MinReversed[11].ArcanaMeaning = ""
+MinReversed[12].ArcanaMeaning = ""
+MinReversed[13].ArcanaMeaning = ""
+MinReversed[14].ArcanaMeaning = ""
+MinReversed[15].ArcanaMeaning = ""
+MinReversed[16].ArcanaMeaning = ""
+MinReversed[17].ArcanaMeaning = ""
+MinReversed[18].ArcanaMeaning = ""
+MinReversed[19].ArcanaMeaning = ""
+MinReversed[20].ArcanaMeaning = ""
+MinReversed[21].ArcanaMeaning = ""
+MinReversed[22].ArcanaMeaning = ""
+MinReversed[23].ArcanaMeaning = ""
+MinReversed[24].ArcanaMeaning = ""
+MinReversed[25].ArcanaMeaning = ""
+MinReversed[26].ArcanaMeaning = ""
+MinReversed[27].ArcanaMeaning = ""
+MinReversed[28].ArcanaMeaning = ""
+MinReversed[29].ArcanaMeaning = ""
+MinReversed[30].ArcanaMeaning = ""
+MinReversed[31].ArcanaMeaning = ""
+MinReversed[32].ArcanaMeaning = ""
+MinReversed[33].ArcanaMeaning = ""
+MinReversed[34].ArcanaMeaning = ""
+MinReversed[35].ArcanaMeaning = ""
+MinReversed[36].ArcanaMeaning = ""
+MinReversed[37].ArcanaMeaning = ""
+MinReversed[38].ArcanaMeaning = ""
+MinReversed[39].ArcanaMeaning = ""
+MinReversed[40].ArcanaMeaning = ""
+MinReversed[41].ArcanaMeaning = ""
+MinReversed[42].ArcanaMeaning = ""
+MinReversed[43].ArcanaMeaning = ""
+MinReversed[44].ArcanaMeaning = ""
+MinReversed[45].ArcanaMeaning = ""
+MinReversed[46].ArcanaMeaning = ""
+MinReversed[47].ArcanaMeaning = ""
+MinReversed[48].ArcanaMeaning = ""
+MinReversed[49].ArcanaMeaning = ""
+MinReversed[50].ArcanaMeaning = ""
+MinReversed[51].ArcanaMeaning = ""
+MinReversed[52].ArcanaMeaning = ""
+MinReversed[53].ArcanaMeaning = ""
+MinReversed[54].ArcanaMeaning = ""
+MinReversed[55].ArcanaMeaning = ""
