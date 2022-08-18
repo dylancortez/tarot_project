@@ -9,3 +9,4 @@ Data has now been added for reversed Major Arcana readings.
 
 Update (8/18/2022):
 Data has now been added for upright Minor Arcana readings, as well as the ability to implement them in tarot reading functions.
+Tarot Functions file has been updated for implementation of Minor Arcana integration in reading functions.
