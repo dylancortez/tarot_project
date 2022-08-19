@@ -28,13 +28,15 @@ def cross_spread():
     return new_reading
 
 #user input for what tarot spread they would like
-spread = input("What tarot spread would you like today?")
+input("What question do you have for me today?")
 
-if spread.upper() == "BASIC SPREAD":
+spread = input("What tarot spread would you like today? Basic, Single, or Cross spread?")
+
+if spread.upper() == "BASIC SPREAD" or spread.upper() == "BASIC":
     print(str(basic_spread()))
-elif spread.upper() == "CROSS SPREAD":
+elif spread.upper() == "CROSS SPREAD" or spread.upper() == "CROSS":
     print(str(cross_spread()))
-elif spread.upper() == "SINGLE SPREAD":
+elif spread.upper() == "SINGLE SPREAD" or spread.upper() == "SINGLE":
     print(str(single_spread()))
 else:
     print("Not a valid input")
