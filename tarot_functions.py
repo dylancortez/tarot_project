@@ -39,5 +39,5 @@ elif spread.upper() == "CROSS SPREAD" or spread.upper() == "CROSS":
 elif spread.upper() == "SINGLE SPREAD" or spread.upper() == "SINGLE":
     print(str(single_spread()))
 else:
-    print("Not a valid input")
+    ValueError("Please select an appropriate spread type!")
 
